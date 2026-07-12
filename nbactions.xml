@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This file customizes what NetBeans does when you click the Run/Debug
+    buttons for this Maven project. By default NetBeans binds those buttons
+    to the exec-maven-plugin's exec:exec goal, which just runs a plain
+    `java -classpath ...` command and does NOT know how to set up the
+    JavaFX module-path — that's what causes:
+
+        Error: JavaFX runtime components are missing, and are required
+        to run this application
+
+    Binding Run/Debug to the javafx:run goal instead (provided by the
+    org.openjfx:javafx-maven-plugin already declared in pom.xml) fixes
+    this, because that plugin builds the correct module path and
+    add-modules arguments for you automatically.
+-->
+<actions>
+    <action>
+        <actionName>run</actionName>
+        <goals>
+            <goal>javafx:run</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>debug</actionName>
+        <goals>
+            <goal>javafx:run</goal>
+        </goals>
+    </action>
+</actions>

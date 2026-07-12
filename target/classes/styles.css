@@ -1,0 +1,104 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-background-color: #f4f6f9;
+}
+
+.header-bar {
+    -fx-background-color: #1f3a5f;
+    -fx-padding: 18 24 18 24;
+}
+
+.header-title {
+    -fx-text-fill: white;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.header-subtitle {
+    -fx-text-fill: #c7d4e6;
+    -fx-font-size: 13px;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-padding: 24;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.12), 12, 0, 0, 3);
+}
+
+.section-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f3a5f;
+}
+
+.field-label {
+    -fx-text-fill: #33424f;
+    -fx-font-size: 13px;
+}
+
+.question-text {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f2933;
+    -fx-wrap-text: true;
+}
+
+.timer-label {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #d64545;
+}
+
+.btn-primary {
+    -fx-background-color: #1f6feb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 18 8 18;
+    -fx-cursor: hand;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #1758c4;
+}
+
+.btn-secondary {
+    -fx-background-color: #e3e8ef;
+    -fx-text-fill: #1f2933;
+    -fx-background-radius: 6;
+    -fx-padding: 8 18 8 18;
+    -fx-cursor: hand;
+}
+
+.btn-secondary:hover {
+    -fx-background-color: #cfd7e2;
+}
+
+.btn-danger {
+    -fx-background-color: #d64545;
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+    -fx-padding: 8 18 8 18;
+    -fx-cursor: hand;
+}
+
+.btn-danger:hover {
+    -fx-background-color: #b73838;
+}
+
+.grade-pass {
+    -fx-text-fill: #1a8a3f;
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+}
+
+.grade-fail {
+    -fx-text-fill: #d64545;
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+}
+
+.table-view {
+    -fx-background-color: white;
+}
